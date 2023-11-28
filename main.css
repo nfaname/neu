@@ -1,0 +1,38 @@
+.welcome {
+  display: flex;
+  justify-content: center;
+}
+
+.welcome img {
+  width: 1300px;
+  height: auto;
+  border-radius: 30px;
+}
+
+.NEW {
+  width: 1300px;
+  height: 650px;
+  background-color: #e8e8e8;
+  margin-top: 25px;
+}
+
+.NEW h2 {
+  padding: 25px 0px 0px 30px;
+  color: #000;
+  font-family: Raleway;
+  font-size: 48px;
+  font-style: normal;
+  letter-spacing: 10px;
+}
+.NEW img {
+  height: 400px;
+}
+.NEW div {
+  margin: 50px 0px 0px 30px;
+  width: 1300px;
+  height: 500px;
+}
+.NEW img:hover {
+  background-color: rgb(255, 255, 255);
+  border-radius: 5px;
+}

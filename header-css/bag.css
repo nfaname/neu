@@ -1,0 +1,154 @@
+.bag-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+}
+  
+.bag-column {
+    display: flex;
+    flex-direction: column;
+}
+
+.my-bag-top {
+    display: flex;
+    flex: 1;
+    flex-direction: row;
+    margin: 4px;
+    background-color: #E8E8E8;
+    width: 572px;
+    height: 70px;
+    font-size: 25px;
+}
+
+.top-bag-text {
+    margin: 10px;
+    justify-content: space-between;
+    display: flex;
+    flex: 1;
+}
+
+.top-bag-title {
+    font-weight: bold;
+    text-align: center;
+}
+
+.top-some-text {
+
+}
+
+.cards-middle {
+    display: flex;
+    align-items: center;
+    margin: 4px;
+    background-color: #E8E8E8;
+    width: 572px;
+    height: 195px;
+}
+
+.my-bag-bottom {
+    margin: 4px;
+    background-color: #E8E8E8;
+    width: 572px;
+    height: 70px;
+    display: flex;
+    flex: 1;
+    flex-direction: row;
+}
+
+.bottom-bag-text {
+    margin: 10px;
+    justify-content: space-between;
+    display: flex;
+    flex: 1;
+}
+
+.bottom-sub-total {
+    font-size: 25px;
+    margin-left: 300px;
+}
+
+.bottom-cost {
+    font-size: 25px;
+    margin-right: 10px;
+}
+
+.total-right {
+    margin: 4px;
+    background-color: #E8E8E8;
+    width: 572px;
+    height: 310px;
+}
+
+.total-right * {
+    margin: 10px;
+}
+
+.sub-total-cost {
+    margin: 0;
+    padding: 0;
+    justify-content: space-between;
+    display: flex;
+    flex: 1;
+}
+
+.right-total-text {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    text-align: wrap;
+    font-size: 25px;
+}
+
+.total-title {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.155);
+}
+
+.credits {
+    max-width: 570px;
+}
+
+.checkout-button {
+    background-color: rgb(93, 142, 93);
+    border: none;
+    height: 40px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+
+
+.middle-cards-text {
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+
+.close-button {
+    position: relative;
+    font-size: 25px;
+    top: -70px;
+    left: 530px;
+    cursor: pointer;
+    color: black;
+  }
+  
+  .close-button:hover {
+    color: gray;
+  }
+  
+
+.text-details {
+    display: flex;
+    flex: 1;
+    flex-direction: column; 
+}
+
+.cost {
+    font-size: 30px;
+    margin-bottom: 60px;
+}
+
+.description {
+    font-size: 20px;
+
+}

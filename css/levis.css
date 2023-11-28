@@ -1,0 +1,41 @@
+main {
+    background-color: #e8e8e8;
+    height: 900px;
+    width: 1300px;
+    display: grid;
+    letter-spacing: 3px;
+    grid-template-columns: 300px 950px;
+    grid-gap: 20px;
+    color: black;
+    font-size: 20px;
+    font-family: Montserrat;
+    font-weight: bold;
+    word-wrap: break-word;
+    text-decoration: none;
+}
+
+a {
+    color: black;
+}
+
+main>div {
+    background-color: white;
+    margin: 20px;
+}
+
+
+
+main>div:nth-child(1)>div {
+    text-align: start;
+    margin: 30px 0px 0px 20px;
+
+}
+
+main>div:nth-child(1)>div p:not(:nth-child(1)) {
+    padding-top: 80px;
+}
+
+.b_rand a:last-child {
+    border-bottom: 1px solid #010522;
+    border-radius: 15px;
+}
